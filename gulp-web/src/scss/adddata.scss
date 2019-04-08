@@ -1,0 +1,40 @@
+@import "common";
+@import "_minix";
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    .header {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: #ec5e1c;
+        i {
+            width: 10%;
+            font-size: 30px;
+        }
+        h1 {}
+    }
+    .main {
+        width: 100%;
+        flex: 1;
+    }
+    .footer {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .add {
+            width: 90%;
+            height: 40px;
+            background: #ec5e1c;
+            color: #fff;
+            border-radius: 20px;
+        }
+    }
+}
